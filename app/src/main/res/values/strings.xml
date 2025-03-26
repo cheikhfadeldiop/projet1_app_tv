@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">cfpt_tv</string>
+    <string name="app_welcom">bienvenue au cfpt_tv</string>
+    <string name="app_welcom2">Bienvenue Chez Vous</string>
+    <string name="app_welcom3">Cliquer ici</string>
+    <string name="lo">Lo</string>
+</resources>

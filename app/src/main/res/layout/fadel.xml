@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_welcom2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+    <Button
+        android:id="@+id/myButtom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_welcom3"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img"
+        android:contentDescription="@string/lo"/>
+
+    <Button
+        android:id="@+id/myButtom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_welcom3"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp" />
+
+</LinearLayout>
